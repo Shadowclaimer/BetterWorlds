@@ -1,0 +1,44 @@
+{
+  "objectName" : "chesttoxic",
+  "rarity" : "Common",
+  "objectType" : "container",
+
+  "category" : "storage",
+  "price" : "500",
+  "description" : "An old chest abandoned on a toxic world.",
+  "shortdescription" : "Toxic Chest",
+  "race" : "avian",
+
+  "apexDescription" : "A strong chest. What's inside?",
+  "avianDescription" : "These chests are built undecorated but strong, to protect the contents.",
+  "floranDescription" : "Let'ss get chesst open! Maybe food insside.",
+  "glitchDescription" : "Eager. No time to waste, open it up!",
+  "humanDescription" : "A chest is a welcome sight.",
+  "hylotlDescription" : "Presents are most exciting when they're still wrapped.",
+
+  "inventoryIcon" : "chesttoxicicon.png",
+  "orientations" : [
+    {
+      "image" : "chesttoxic.png:<color>.<key>",
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left"
+    },
+    {
+      "image" : "chesttoxic.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}

@@ -1,0 +1,21 @@
+{
+  "projectileName" : "vyroxeresbullet",
+  "frames" : "vyroxeresbullet.png",
+  "animationCycle" : 0.25,
+  "level" : 1,
+  "energyCostPerDamagePoint" : 15,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 3.0,
+  "statusEffects" : [
+    { "kind" : "testpoison" }
+  ],
+  "damageKind" : "default"
+}

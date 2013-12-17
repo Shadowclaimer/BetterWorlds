@@ -1,0 +1,62 @@
+{
+  "name" : "acidrain",
+
+  "maxDarkness" : 0.90,
+
+  "windVelocity" : [10, 0],
+
+  "density" : 250,
+  
+  "particles" : [
+    {
+      "type" : "textured",
+      "image" : "/particles/acidrain/1.png",
+      "velocity" : [2, -35.5],
+      "angularVelocity" : 0,
+      "timeToLive" : 100,
+      "destructionAction" : "Image",
+      "destructionTime" : 0.1,
+      "destructionImage" : "/particles/acidsplash/1.png",
+      "collidesForeground" : true,
+      "collidesLiquid" : true
+    },
+    {
+      "type" : "textured",
+      "image" : "/particles/acidrain/2.png",
+      "velocity" : [2, -25.5],
+      "angularVelocity" : 0,
+      "timeToLive" : 100,
+      "destructionAction" : "Image",
+      "destructionTime" : 0.1,
+      "destructionImage" : "/particles/acidsplash/1.png",
+      "collidesForeground" : true,
+      "collidesLiquid" : true
+    },
+    {
+      "type" : "textured",
+      "image" : "/particles/acidrain/3.png",
+      "velocity" : [2, -20.5],
+      "angularVelocity" : 0,
+      "timeToLive" : 100,
+      "destructionAction" : "Image",
+      "destructionTime" : 0.1,
+      "destructionImage" : "/particles/acidsplash/1.png",
+      "collidesForeground" : true,
+      "collidesLiquid" : true
+    }
+  ],
+
+  "lightningFrequency" : 0.07,
+
+  "weatherNoises" : {
+    "heavy" : {
+      "tracks" : [ "/sfx/weather/rain_heavy.ogg" ]
+    },
+    "medium" : {
+      "tracks" : [ "/sfx/weather/rain_medium.ogg" ]
+    },
+    "light" : {
+      "tracks" : [ "/sfx/weather/rain_light.ogg" ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "itemName" : "vyroxeressniperrifle",
+  "inventoryIcon" : "vyroxeressniperrifle.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "A sniper rifle reinforced with Vyroxeres.",
+  "shortdescription" : "Vyroxeres Sniper Rifle",
+  "image" : "vyroxeressniperrifle.png",
+  "fireTime" : 2,
+  "baseDps" : 2,
+  "recoilTime" : 0.1,
+  "spread" : 1,
+  "multiplier" : 0.5,
+  "accuracy" : 100,
+  "rateOfFire" : 2,
+  "handPosition" : [-3.5, -1],
+  "firePosition" : [20, 1.5],
+  "twoHanded" : true,
+
+  
+  "muzzleFlashes" : [
+    "/animations/muzzleflash/bulletmuzzle1/bulletmuzzle1.animation",
+    "/animations/muzzleflash/bulletmuzzle2/bulletmuzzle2.animation",
+    "/animations/muzzleflash/bulletmuzzle3/bulletmuzzle3.animation"
+  ],
+  
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/sniper2.wav" } ]
+  },
+
+  "projectileType" : "vyroxeresbullet",
+  "projectile" : {
+    "speed" : 180,
+	"power" : 8,
+    "color" : [0, 180, 0]
+  }
+}

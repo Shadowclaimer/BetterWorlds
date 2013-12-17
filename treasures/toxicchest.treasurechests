@@ -1,0 +1,9 @@
+{
+  "toxicchestChest" : [
+    {
+      "containers" : [ "chesttoxic" ],
+      "treasurePool" : "toxicchestTreasure",
+      "minimumLevel" : 1
+    }
+  ]
+}

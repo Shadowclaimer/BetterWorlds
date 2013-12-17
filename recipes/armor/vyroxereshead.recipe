@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "vyroxeresbar", "count" : 15 },
+    { "item" : "money", "count" : 500 }
+  ],
+  "output" : { "item" : "vyroxereshead", "count" : 1 },
+  "groups" : [ "anvil", "armor", "all" ]
+}

@@ -1,0 +1,10 @@
+{
+  "modId" : 255,
+  "modName" : "vyroxeres",
+  "frames" : "vyroxeres.png",
+  "variants" : 8,
+  "itemDrop" : "vyroxeresore",
+  "Description" : "Vyroxeres ore.",
+  "health" : 14,
+  "breaksWithTile" : true
+}

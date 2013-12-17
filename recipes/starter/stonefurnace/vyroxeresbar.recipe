@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "vyroxeresore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "vyroxeresbar",
+    "count" : 1
+  },
+  "groups" : [ "stonefurnace", "all" ]
+}

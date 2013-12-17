@@ -1,0 +1,35 @@
+{
+  "toxicchestTreasure" : [
+    [1, {
+        "pool" : [
+          [0.02, [ "money", 25] ],
+          [0.03, [ "money", 100] ],
+          [0.05, [ "medkit", 1] ],
+          [0.05, [ "torch", 10] ],
+          [0.05, [ "flare", 5] ],
+          [0.03, [ "plantfibre", 10] ],
+          [0.02, [ "alienmeat", 2] ],
+          [0.06, "vyroxeresshortsword-recipe" ],
+          [0.06, "vyroxeresbroadsword-recipe" ],
+          [0.06, "vyroxeresaxe-recipe" ],
+          [0.06, "vyroxereshammer-recipe" ],
+          [0.06, "vyroxeresspear-recipe" ],
+          [0.06, "vyroxeresdagger-recipe" ],
+		  [0.06, "vyroxerespistol-recipe" ],
+		  [0.06, "vyroxeresrifle-recipe" ],
+		  [0.10, "vyroxeresbar-recipe" ],
+		  [0.06, "vyroxereschest-recipe" ],
+		  [0.06, "vyroxereshead-recipe" ],
+		  [0.06, "vyroxerespants-recipe" ],
+		  [0.06, "vyroxeressniperrifle-recipe" ]
+        ],
+        "poolRounds" : [
+          [0.5, 1],
+          [0.5, 2],
+		  [0.5, 3]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ]
+}

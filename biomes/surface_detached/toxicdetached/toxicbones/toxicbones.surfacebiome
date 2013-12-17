@@ -1,0 +1,40 @@
+{
+  "name" : "toxicbones",
+  "caveLiquidType" : "acid",
+  "oceanLiquidType" : "acid",
+  
+  "surfaceParameters" : {
+    "mainBlock" : "junktech",
+    "subBlocks" : [ "slime", "rustyblock", "bonematerial", "bonematerial" ],
+    "ores" : "toxicsurfaceOres",
+
+    "statusParameters" : {
+      "temperatureBounds" : [-20, 20],
+      "dayNightTemperatureVariability" : 20,
+      "temperatureVariability" : 5
+    },
+	
+	"weather" : [
+      {
+        "type" : "acidrain",
+        "severityBounds" : [50.0, 75.0]
+      }
+    ],
+
+    "surfacePlaceables" : {
+      "items" : [
+        {
+          "mode" : "floor",
+          "priority" : 3.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+          "type" : "grass",
+          "grasses" : [ "freebone" ]
+        }
+      ]
+    }
+  }
+}
+
+

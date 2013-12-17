@@ -1,0 +1,6 @@
+{
+  "image" : "toxicunderground.png?brightness=-65",
+  "dividerimage" : "toxicdivider.png?brightness=-65",
+  "parallax" : 1.1,
+  "origin" : [0, 395]
+}

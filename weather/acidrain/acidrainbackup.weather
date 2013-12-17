@@ -1,0 +1,39 @@
+{
+  "name" : "acidrainbackup",
+
+  "maxDarkness" : 0.50,
+
+  "windVelocity" : [10, 0],
+
+  "density" : 210,
+  "particles" : [
+    {
+      "type" : "streak",
+      "velocity" : [0, -35],
+      "approach" : [10, 10],
+      "angularVelocity" : 180,
+      "timeToLive" : 100,
+      "color" : [0, 255, 0],
+      "size" : 0.5,
+      "destructionAction" : "Image",
+      "destructionTime" : 0.1,
+      "destructionImage" : "/particles/acidsplash/1.png",
+      "collidesForeground" : true,
+      "collidesLiquid" : true
+    }
+  ],
+
+  "lightningFrequency" : 1.0,
+
+  "weatherNoises" : {
+    "heavy" : {
+      "tracks" : [ "/sfx/weather/rain_heavy.ogg" ]
+    },
+    "medium" : {
+      "tracks" : [ "/sfx/weather/rain_medium.ogg" ]
+    },
+    "light" : {
+      "tracks" : [ "/sfx/weather/rain_light.ogg" ]
+    }
+  }
+}
